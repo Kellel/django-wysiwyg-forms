@@ -6,7 +6,7 @@ from django.core.exceptions import ImproperlyConfigured
 from django.core.urlresolvers import reverse
 from django.template import Context, Template
 from django.test import TestCase
-from django.utils import simplejson as json
+import json
 
 from .exceptions import (ChoiceDoesNotExist, ChoiceAlreadyExists,
                          FieldDoesNotExist, FieldAlreadyExists)

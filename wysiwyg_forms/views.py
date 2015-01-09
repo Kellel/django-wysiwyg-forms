@@ -5,7 +5,7 @@ from django.core.exceptions import ImproperlyConfigured
 from django.core.urlresolvers import reverse
 from django.shortcuts import get_object_or_404
 from django.template import RequestContext
-from django.utils import simplejson as json
+import json
 from django.views.generic import DetailView, FormView
 
 from .exceptions import WysiwygFormsException

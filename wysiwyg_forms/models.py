@@ -4,7 +4,7 @@ from django.db import models
 from django import forms
 from django.template.defaultfilters import slugify
 from django.utils.datastructures import SortedDict
-from django.utils import simplejson as json
+import json
 
 from .exceptions import (ChoiceDoesNotExist, ChoiceAlreadyExists,
                          FieldDoesNotExist, FieldAlreadyExists,
